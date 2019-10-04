@@ -17,7 +17,8 @@ def say_hello(name)
 end
 
 puts "Enter your name:"
-binding.pry
+
 users_name = gets.strip
+binding.pry
 
 puts say_hello(users_name)
