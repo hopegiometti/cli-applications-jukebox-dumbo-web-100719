@@ -53,8 +53,6 @@ def run(user_command)
       help
     elsif user_command == "list"
       list(songs)
-      puts "Please enter a command:"
-      input = gets.strip
     elsif user_command == "play"
       play(songs)
     else
