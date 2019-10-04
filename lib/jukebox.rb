@@ -25,7 +25,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   entered_song = gets.strip
 
-  songs.each do |song, index|
+  songs.each do |song|
     binding.pry
   end
 
