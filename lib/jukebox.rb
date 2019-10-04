@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -13,7 +15,7 @@ songs = [
 def say_hello(name)
   "Hi #{name}!"
 end
-
+binding.pry
 puts "Enter your name:"
 users_name = gets.strip
 
