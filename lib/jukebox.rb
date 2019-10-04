@@ -58,6 +58,9 @@ def run(user_command)
     else
       puts "Invalid command, please try again"
     end
+
+    puts "Please enter a command:"
+    user_command = gets.strip
   end
 
   if user_command == "exit"
