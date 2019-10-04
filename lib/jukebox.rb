@@ -49,14 +49,15 @@ def run
   user_command = gets.strip
 
   while user_command != "exit" do
-  if user_command == "help"
-    help
-  elsif user_command == "list"
-    list
-  elsif user_command == "play"
-    play
-  else
-    puts "Invalid command, please try again"
+    if user_command == "help"
+      help
+    elsif user_command == "list"
+      list
+    elsif user_command == "play"
+      play
+    else
+      puts "Invalid command, please try again"
+    end
   end
 
   if user_command == "exit"
