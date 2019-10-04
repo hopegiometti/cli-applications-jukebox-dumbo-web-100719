@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -20,6 +22,14 @@ puts "- exit : exits this program"
 end
 
 def play(songs)
-  
+  puts "Please enter a song name or number:"
+  entered_song = gets.strip
+
+  songs.each do |song, index|
+
+
+  if songs.include?(entered_song)
+    puts "Playing #{entered_song}"
+  elsif songs.include?(entered_song.to_i)
 
 end
