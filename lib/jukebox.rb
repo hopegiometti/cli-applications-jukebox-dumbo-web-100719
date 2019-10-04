@@ -48,15 +48,18 @@ def run
   puts "Please enter a command:"
   user_command = gets.strip
 
+  while user_command != "exit" do
   if user_command == "help"
     help
   elsif user_command == "list"
     list
   elsif user_command == "play"
     play
-  elsif user_command == "exit"
-    exit_jukebox
   else
     puts "Invalid command, please try again"
+  end
+
+  if user_command == "exit"
+    exit_jukebox
   end
 end
