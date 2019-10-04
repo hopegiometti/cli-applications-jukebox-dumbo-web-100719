@@ -52,9 +52,9 @@ def run(user_command)
     if user_command == "help"
       help
     elsif user_command == "list"
-      list
+      list(songs)
     elsif user_command == "play"
-      play
+      play(songs)
     else
       puts "Invalid command, please try again"
     end
