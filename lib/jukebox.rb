@@ -15,8 +15,9 @@ songs = [
 def say_hello(name)
   "Hi #{name}!"
 end
-binding.pry
+
 puts "Enter your name:"
+binding.pry
 users_name = gets.strip
 
 puts say_hello(users_name)
