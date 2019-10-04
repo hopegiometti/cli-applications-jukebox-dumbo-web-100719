@@ -43,3 +43,19 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  puts "Please enter a command:"
+  user_command = gets.strip
+
+  if user_command == "help"
+    help
+  elsif user_command == "list"
+    list
+  elsif user_command == "play"
+    play
+  elsif user_command == "exit"
+    exit_jukebox
+  else
+    puts "Invalid command, please try again"
+end
