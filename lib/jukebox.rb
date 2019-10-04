@@ -28,7 +28,7 @@ def play(songs)
   songs.each_with_index do |song, index|
     if songs.include?(input)
       puts "Playing #{input}"
-    elsif songs.to_i.include?(input)
+    elsif songs.include?(input.to_s)
       puts "Playing #{input}"
     else
       puts "Invalid input, please try again"
