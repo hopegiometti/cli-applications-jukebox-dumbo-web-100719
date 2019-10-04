@@ -26,10 +26,7 @@ def play(songs)
   entered_song = gets.strip
 
   songs.each do |song, index|
-
-
-  if songs.include?(entered_song)
-    puts "Playing #{entered_song}"
-  elsif songs.include?(entered_song.to_i)
+    binding.pry
+  end
 
 end
