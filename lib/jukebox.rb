@@ -19,5 +19,7 @@ puts "- play : lets you choose a song to play"
 puts "- exit : exits this program"
 end
 
-def play
+def play(songs)
+  
+
 end
