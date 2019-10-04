@@ -1,5 +1,3 @@
-require 'pry'
-
 =begindef say_hello(name)
   "Hi #{name}!"
 end
@@ -24,8 +22,8 @@ songs = [
 
 def help
 puts "I accept the following commands:"
-puts "help : displays this help message"
-puts "list : displays a list of songs you can play"
-puts "lets you choose a song to play"
-puts "exit : exits this program"
+puts "- help : displays this help message"
+puts "- list : displays a list of songs you can play"
+puts "- lets you choose a song to play"
+puts "- exit : exits this program"
 end
