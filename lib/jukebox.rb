@@ -44,7 +44,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(user_command)
+def run(songs)
   puts "Please enter a command:"
   user_command = gets.strip
 
