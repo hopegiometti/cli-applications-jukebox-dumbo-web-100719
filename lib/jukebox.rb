@@ -58,4 +58,5 @@ def run
     exit_jukebox
   else
     puts "Invalid command, please try again"
+  end
 end
